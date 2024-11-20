@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.pre-navi{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(161, 215, 197);
+    display: flex;
+    color: rgb(8, 8, 113);
+    justify-content: space-between;
+    border-bottom: 1px solid green;
+}
+.number{
+    display: flex;
+    padding-left: 100px;
+}
+
+.number p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.number:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.all-icon{
+    display: flex;
+    padding-right: 100px;
+    margin-top: 7px;
+}
+.all-icon:hover{
+    color: green;
+    cursor: pointer;
+}
+.imgg-2{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid silver;
+    /* position: fixed; */
+    background-color: white;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 20px;
+}
+.navigation ul li{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #2E236C;
+}
+.navigation ul li:hover{
+    cursor: pointer;
+    color: green;
+}
+.logo{
+    margin-left: 50px;
+}
+.logo h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#2E236C ;
+}
+.Get{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border:2px solid green;
+    font-size: 20px;
+}
+.Get:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+.btn{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.container-1{
+    background-image: url("back.png");
+    height: 1800px;
+    width: 100%;
+    background-size: cover;
+}
+.first-div{
+    display: flex;
+}
+.text{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.text h1{
+    font-size: 50px;
+}
+.text p{
+    font-size: 17px;
+    color: gray;
+    padding-top: 50px;
+}
+.without-text{
+    margin-top: 50px;
+    margin-left: 200px;
+    transform: translate(0px);
+    transition: .5s;
+}
+.without-text:hover{
+    transform: translate(5px);
+}
+.Get-1{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border:1px solid green;
+    font-size: 20px;
+    background-color: green;
+    transform: translate(0px);
+    transition: .3s all;
+    color: white;
+    margin-top: 50px;
+}
+.Get-1:hover{
+    transform: translate(7px);
+    color: black;
+}
+.second-div{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.first-box{
+    height: 450px;
+    width: 22%;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.first-box h1{
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #2E236C;
+    font-size: 23px;
+}
+.first-box p{
+    color: #373A40;
+    padding-bottom: 50px;
+    font-size: 19px;
+    transform: translate(0px);
+    transition: .3s all;
+}
+.first-box:hover{
+    box-shadow: 0px 10px 10px 0px rgba(rgb(24, 22, 22), rgb(26, 19, 19), rgb(123, 120, 120), .9);
+    transform: translate(3px);
+    cursor: pointer;
+}
+.more{
+    color:#2E236C;
+}
+.third-div{
+    margin-top: 50px;
+    display: flex;
+    padding-left: 150px;
+}
+span{
+    color: #2E236C;
+    font-size: 30px;
+}
+.first-box1{
+    transform: translate(0px);
+    transition: .3s all;
+}
+.first-box1:hover{
+    transform:translate(8px) ;
+}
+.first-box2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.first-box2 h3{
+    padding-bottom: 30px;
+    font-size: 27px;
+}
+.first-para{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #373A40;
+}
+.first-box2 p{
+    padding: 7px;
+    font-size: 18px;
+}
+.Get2{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border:2px solid green;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.Get2:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+.container-3{
+    height: 900px;
+    width: 100%;
+    background-image: url("bgg.jpeg");
+    background-size: cover;
+    display: flex;
+    color: #5b548a;
+    justify-content: center;
+    margin-top: 40px;
+}
+.first-para1{
+    font-size: 20px;
+    color: #5b548a;
+    margin-bottom: 40px;
+}
+.first-box3{
+    padding-top: 100px;
+}
+.container-3 h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.container-3 p{
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.first-box4{
+    margin-top: 100px;
+    margin-left: 40px;
+    transform: translate(0px);
+    transition: .3s all;
+}
+.first-box4:hover{
+    transform: translate(8px);
+}
+.need{
+    /* margin-top: 30px; */
+    height: 200px;
+    width: 100%;
+    background: linear-gradient( 160deg,#5b548a, #00feba);
+    color: white;
+    display: flex;
+}
+.need1 h1{
+    padding-top: 50px;
+    padding-left: 80px;
+    font-size: 40px;
+}
+.need1 p{
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: 22px;
+
+}
+.get3{
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border:none;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 350px;
+ 
+
+}
+.get3:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    background-color:  #00feba;
+    color: white;
+}
+.last2{
+    padding-left: 500px;
+    /* background-image: url("blueback.jpg"); */
+    /* margin-top: 20px; */
+    height: 600px;
+    width: 67%;
+    background: linear-gradient( 160deg,#d5d4db, #00feba);
+
+}
+.last2 h1{
+    color: rgb(27, 26, 26);
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+.nam, .nam2{
+    height: 50px;
+    width: 650px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.nam3{
+    padding-left: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 650px;
+    margin-top: 20px;
+    padding-bottom: 80px;
+    border-radius: 6px;
+}
+.book{
+    margin-left: 250px;
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(82, 199, 82);
+}
+.book:hover{
+    cursor: pointer;
+}
+.last-div{
+    height: 30px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
